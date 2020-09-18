@@ -1,4 +1,4 @@
-function upperCaseLetter (string, letter){
+exports.upperCaseLetter = function(string, letter){
     let stringArr = string.split('');
     for(let i = 0; i<stringArr.length; i++){
         if(stringArr[i]=== letter){
